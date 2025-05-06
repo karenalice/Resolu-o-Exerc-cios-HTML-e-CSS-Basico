@@ -1,0 +1,58 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container centralizado */
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Título principal */
+  h1 {
+    text-align: center;
+    color: #1f3c88;
+    margin-bottom: 40px;
+  }
+  
+  /* Estilo dos cartões de exercício */
+  .card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Títulos dos exercícios com ícones */
+  .card h2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #333;
+  }
+  
+  /* Links */
+  .card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #1f3c88;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .card a:hover {
+    color: #ff6600;
+  }
+  
+  /* Ícones */
+  .card i {
+    color: #1f3c88;
+  }
+  
